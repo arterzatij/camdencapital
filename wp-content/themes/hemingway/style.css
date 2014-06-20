@@ -316,7 +316,7 @@ h2.font_3 {
 .blog-menu > li { float: left; }
 
 .blog-menu > li:before {
-	content: "/";
+	content: "";
 	display: block;
 	position: absolute;
 	right: 0;
@@ -343,15 +343,26 @@ h2.font_3 {
 .blog-menu a:hover,
 .blog-menu .current-menu-item a { color: #FFF; }
 
-.blog-menu > .has-children a,
+,
 .blog-menu > .page_item_has_children a { padding-right: 35px; }
+
+.blog-menu .sub-menu > li {
+	width: 180px;
+}
+
+.blog-menu .sub-menu > li a {
+	padding: 0.4em 0.6em;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
 
 .blog-menu > .has-children::after,
 .blog-menu > .page_item_has_children::after {
 	content: "";
 	display: block;
-	border: 5px solid transparent;
-	border-top-color: rgba(255,255,255,0.4);
+	/*border: 5px solid transparent;
+	border-top-color: rgba(255,255,255,0.4);*/
 	position: absolute;
 	z-index: 1001;
 	right: 17px;
@@ -422,6 +433,8 @@ h2.font_3 {
 	opacity: 1;
 	left: 0;
 	display: block;
+	bottom: 100%;
+	padding-bottom: 5%;
 }
 
 
@@ -1898,6 +1911,42 @@ li > div.comment {
 
 img#wpstats { display: none; }
 
+ul.blog-menu > li:first-child {
+	background: white;
+}
+
+ul.blog-menu > li:first-child a {
+	display: block;
+	text-align: center;
+	width: 80px;
+}
+
+ul.blog-menu > li:last-child a {
+	font-size: 13px
+}
+
+ul.blog-menu > li:last-child {
+	float: right;
+	width: 150px;
+	margin-right: 10px;
+}
+
+ul.blog-menu > li:last-child a:after {
+	background: url(/camdencapital/wp-content/uploads/2014/06/bullet.png);
+	content: "";
+	display: inline-block;
+	height: 9px;
+	width: 9px;
+	position: absolute;
+	top: 19px;
+	right: 20px;
+}
+
+.navigation-inner.section-inner {
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	14. Responsive
@@ -2240,7 +2289,6 @@ img#wpstats { display: none; }
 	
 	.credits .right,
 	.credits span { display: none; }
-	
 }
 
 @media (max-width: 500px) {
@@ -2336,6 +2384,4 @@ img#wpstats { display: none; }
 	/* Footer --------------------------------------- */
 	
 	.footer { margin-top: 40px; }
-	
-	
 }

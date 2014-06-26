@@ -32,6 +32,11 @@ function hemingway_setup() {
 	// Add nav menu
 	register_nav_menu( 'primary', 'Primary Menu' );
 	
+	register_nav_menus( array(  
+  'primary' => __( 'Primary Navigation', 'hemingway' ),  
+  'secondary' => __('Secondary Navigation', 'hemingway')  
+) );
+	
 	// Make the theme translation ready
 	load_theme_textdomain('hemingway', get_template_directory() . '/languages');
 	

@@ -49,6 +49,7 @@
 	
 	<div class="credits section bg-dark-light no-padding">
 		<div class="credits-inner section-inner">
+			<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
 			<div class="clear"></div>
 		</div> <!-- /credits-inner -->
 	</div> <!-- /credits -->

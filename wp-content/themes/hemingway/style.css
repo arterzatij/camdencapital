@@ -187,7 +187,7 @@ a.more-link,
 	position: relative;
 }
 
-.section.large-padding { padding: 7.5% 0; }
+.section.large-padding { padding: 5% 0; }
 .section.medium-padding { padding: 5% 0; }
 .section.small-padding { padding: 2.5% 0; }
 .section.no-padding { padding: 0; }
@@ -937,8 +937,8 @@ code, kbd, pre {
 .post-content dl dt { font-weight: bold; }
 
 .post-content hr {
-	width: 50%;
-	height: 4px;
+	width: 90%;
+	height: 1px;
 	background: #EEE;
 	margin: 2em auto;
 	border: 0;
@@ -1927,7 +1927,7 @@ ul.blog-menu > li:last-child a {
 ul.blog-menu > li:last-child {
 	float: right;
 	width: 150px;
-	margin-right: 10px;
+	margin-right: 0px;
 }
 
 ul.blog-menu > li:last-child a:after {
@@ -1943,8 +1943,6 @@ ul.blog-menu > li:last-child a:after {
 
 .navigation-inner.section-inner {
 	margin: 0;
-	width: 100%;
-	max-width: 100%;
 }
 
 .footer .widget-content img {
@@ -1955,6 +1953,43 @@ ul.blog-menu > li:last-child a:after {
 div.credits.section.bg-dark-light.no-padding {
 	border-top: 2px solid #A2A2A2;
 }
+
+#menu-footer > li {
+	float: left;
+	margin-right: 25px;
+	font-size: 12px;
+}
+
+#menu-footer > li:last-child {
+	float: right;
+	margin-right: 0px;
+}
+
+#menu-footer > li:last-child a {
+	cursor: default;
+}
+
+#menu-footer > li:last-child a:hover {
+	color: #666;
+}
+
+.post-content {
+	color : rgb(127, 127, 127);
+}
+
+.post-content h1 {
+	font: normal normal normal 16px/1.4em 'open sans', sans-serif;
+	font-size: 30px;
+	word-wrap: break-word;
+	color: rgb(127, 127, 127);
+}
+
+.post-content p {
+	font-size: 16px;
+	font-family: georgia;
+}
+
+.post-header {display: none;}
 /* -------------------------------------------------------------------------------- */
 /*	14. Responsive
 /* -------------------------------------------------------------------------------- */

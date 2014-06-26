@@ -1896,7 +1896,6 @@ li > div.comment {
 
 .credits-inner { 
 	padding: 25px 0 4%;
-	border-top: 2px solid rgba(255,255,255,0.1);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -1948,6 +1947,14 @@ ul.blog-menu > li:last-child a:after {
 	max-width: 100%;
 }
 
+.footer .widget-content img {
+	display: block;
+	margin: 0 auto;
+}
+
+div.credits.section.bg-dark-light.no-padding {
+	border-top: 2px solid #A2A2A2;
+}
 /* -------------------------------------------------------------------------------- */
 /*	14. Responsive
 /* -------------------------------------------------------------------------------- */
@@ -1961,8 +1968,6 @@ ul.blog-menu > li:last-child a:after {
 	/* Structure --------------------------------------- */
 	
 	.wrapper { 	margin-top: 7.5%; }
-
-
 }
 
 @media (max-width: 800px) {
@@ -2149,8 +2154,6 @@ ul.blog-menu > li:last-child a:after {
 	/* Pagination --------------------------------------- */
 	
 	.archive-nav { margin-top: 60px; }
-
-
 }
 
 @media (max-width: 700px) {

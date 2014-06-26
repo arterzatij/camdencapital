@@ -48,17 +48,9 @@
 	</div> <!-- /footer -->
 	
 	<div class="credits section bg-dark-light no-padding">
-	
 		<div class="credits-inner section-inner">
-	
-			
-			
-			
-			
 			<div class="clear"></div>
-		
 		</div> <!-- /credits-inner -->
-		
 	</div> <!-- /credits -->
 
 </div> <!-- /big-wrapper -->

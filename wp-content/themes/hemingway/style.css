@@ -228,7 +228,7 @@ h2.font_3 {
 	color: #fff;
 }
 
-.wrapper { 	margin-top: 100px; }
+.wrapper { 	margin-top: 50px; }
 
 .content { width: 65%; }
 .content.center { margin-left: auto; margin-right: auto; }
@@ -842,7 +842,7 @@ a.post-nav-newer { float: right; text-align: right; }
 .post-content *:last-child { margin-bottom: 0; }
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-	margin: 50px 0 20px;
+	margin: 30px 0 10px;
 	color: #444;
 	line-height: 120%;
 }
@@ -1975,18 +1975,54 @@ div.credits.section.bg-dark-light.no-padding {
 
 .post-content {
 	color : rgb(127, 127, 127);
+	font: normal normal normal 16px/1.4em 'open sans', sans-serif;
+}
+
+.post-content h1, .post-content h2 {
+	font-size: 30px;
+	font-weight: normal;
+	word-wrap: break-word;
 }
 
 .post-content h1 {
-	font: normal normal normal 16px/1.4em 'open sans', sans-serif;
-	font-size: 30px;
-	word-wrap: break-word;
+	color: #5E9C68;
+}
+
+.post-content h2 {
 	color: rgb(127, 127, 127);
 }
 
+.post-content h3 {
+	color: #5E9C68;
+	font-family: 'open sans', sans-serif; 
+	font-size: 24px;
+}
+
+.post-content h4 {
+	color: rgb(127, 127, 127);
+	font-family: georgia; 
+	font-size: 13px;
+}
+
+.post-content h5 {
+	color: #5E9C68;
+	font-family: georgia; 
+	font-size: 15px;
+	font-weight: bold;
+}
+
 .post-content p {
-	font-size: 16px;
 	font-family: georgia;
+	font-size: 16px;
+}
+
+.post-content address {
+	color: #5E9C68;
+	padding: 3% 15%;
+	font-size: 18px;
+	font-style: italic;
+	font-family: georgia;
+	background: white;
 }
 
 .post-header {display: none;}

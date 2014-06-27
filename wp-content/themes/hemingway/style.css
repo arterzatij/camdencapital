@@ -228,14 +228,13 @@ h2.font_3 {
 	color: #fff;
 }
 
-.wrapper { 	margin-top: 50px; }
+.wrapper { 	margin-top: 20px; }
 
 .content { width: 65%; }
 .content.center { margin-left: auto; margin-right: auto; }
 .content.full-width { width: 100%; }
 
 .sidebar { width: 27.5%; }
-
 
 /* -------------------------------------------------------------------------------- */
 /*	3. Header
@@ -1978,6 +1977,20 @@ div.credits.section.bg-dark-light.no-padding {
 	font: normal normal normal 16px/1.4em 'open sans', sans-serif;
 }
 
+.post-content a {
+	font-family:arial,helvetica,sans-serif;
+	font-size: 16px;
+}
+
+.post-content address {
+	color: #5E9C68;
+	padding: 3% 15%;
+	font-size: 18px;
+	font-style: italic;
+	font-family: georgia;
+	background: white;
+}
+
 .post-content h1, .post-content h2 {
 	font-size: 30px;
 	font-weight: normal;
@@ -2011,21 +2024,82 @@ div.credits.section.bg-dark-light.no-padding {
 	font-weight: bold;
 }
 
+.post-content li {
+	margin-bottom: 0.6em;
+	font-family: georgia;
+	font-size: 16px;
+}
+
 .post-content p {
 	font-family: georgia;
 	font-size: 16px;
 }
 
-.post-content address {
-	color: #5E9C68;
-	padding: 3% 15%;
-	font-size: 18px;
-	font-style: italic;
-	font-family: georgia;
-	background: white;
+.post-content p a {
+  font-family: georgia;
+  font-size: 16px;
+}
+
+.post-content p a.btn {
+	border: 1px solid #5E9C68;
+	font-family: 'open sans', sans-serif;
+	font-size: 9px;
+	padding: 5px 15px;
+	text-decoration: none;
+  border-radius: 3px;
 }
 
 .post-header {display: none;}
+
+div.post-sidebar {
+	margin: 50px 0;
+}
+
+.post-sidebar hr {
+	width: 90%;
+	height: 1px;
+	background: #EEE;
+	margin: 5px auto;
+	border: 0;
+}
+
+.post-sidebar p {
+	margin: 5px auto;
+}
+
+.post-sidebar p a {
+	color: rgb(127, 127, 127);
+	font-family: 'open sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.post-sidebar p a:hover {
+	color: #5e9c68;
+	text-decoration: none;
+}
+
+.post-sidebar address {
+	background: white;
+	font-family: 'open sans', sans-serif;
+	font-size:14px;
+	font-style: normal;
+	padding: 3% 5%;
+}
+
+.post-sidebar i {
+	color: rgb(0, 0, 0); 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 12px; 
+	line-height: normal;
+}
+
+.post-sidebar img {
+	display: block;
+	margin: 0 auto;
+}
+
+
 /* -------------------------------------------------------------------------------- */
 /*	14. Responsive
 /* -------------------------------------------------------------------------------- */
@@ -2459,3 +2533,9 @@ div.credits.section.bg-dark-light.no-padding {
 	
 	.footer { margin-top: 40px; }
 }
+
+/* Dynamic Backgrounds ------------------------------ */
+	.about{	background-image:url('images/about.png')!important; }
+	.aproach{ background-image:url('images/aproach.png')!important; }
+	.recognition{background-image:url('images/recognition.png')!important;}
+	.contact{background-image:url('images/contact.png')!important; }

@@ -21,7 +21,7 @@
 	
 			<div class="header-cover section bg-dark-light no-padding">
 		
-				<div class="header section" style="background-image: url(<?php if (get_header_image() != '') : ?><?php header_image(); ?><?php else : ?><?php echo get_template_directory_uri() . '/images/header.jpg'; ?><?php endif; ?>);">
+				<div id="multiback" class="header section" style="background-image: url(<?php if (get_header_image() != '') : ?><?php header_image(); ?><?php else : ?><?php echo get_template_directory_uri() . '/images/header.jpg'; ?><?php endif; ?>);">
 							
 					<div class="header-inner section-inner">
 					
